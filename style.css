@@ -1,0 +1,33 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+textarea, iframe {
+    width: 48%;
+    height: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+textarea {
+    font-family: monospace;
+    resize: none;
+}
+
+iframe {
+    background-color: white;
+}
